@@ -1,0 +1,40 @@
+{
+  "name": "Internship",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Name of the internship program"
+    },
+    "field": {
+      "type": "string",
+      "description": "Field/category of the internship"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location of the internship"
+    },
+    "deadline": {
+      "type": "string",
+      "description": "Application deadline month or Rolling"
+    },
+    "grade": {
+      "type": "string",
+      "description": "Target grade level"
+    },
+    "url": {
+      "type": "string",
+      "description": "External link to the internship"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this is a featured opportunity"
+    }
+  },
+  "required": [
+    "title",
+    "field",
+    "location"
+  ]
+}
